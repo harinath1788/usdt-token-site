@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,15 +52,20 @@
     }
     .button {
       display: inline-block;
-      padding: 10px 20px;
+      padding: 12px 25px;
       background: #0d6efd;
       color: white;
       border-radius: 5px;
       text-decoration: none;
-      margin-top: 10px;
+      font-weight: bold;
+      transition: background 0.3s ease;
     }
     .button:hover {
       background: #0b5ed7;
+    }
+    .center {
+      text-align: center;
+      margin-top: 15px;
     }
   </style>
 </head>
@@ -67,7 +73,9 @@
   <header>
     <h1>Tether USD (USDT)</h1>
     <p>Testing for price fetch and auto-import</p>
-  </header>  <section>
+  </header>  
+
+  <section>
     <div class="card">
       <h2>Token Overview</h2>
       <p><strong>Name:</strong> Tether USD</p>
@@ -75,28 +83,38 @@
       <p><strong>Total Supply:</strong> 25,000,000</p>
       <p><strong>Contract Address:</strong> 0x91f5a9e80F645277F3AF233eacf5F27f53be3EB3</p>
       <p><strong>Decimals:</strong> 18</p>
-    </div><div class="card">
-  <h2>Tokenomics</h2>
-  <p>This token is designed for testing price fetching and auto-import functionality. It represents a supply of 25 million units, deployed on-chain for experimentation and learning purposes.</p>
-</div>
+    </div>
 
-<div class="card">
-  <h2>Roadmap</h2>
-  <ul>
-    <li>✅ Token launch</li>
-    <li>🔄 Liquidity added</li>
-    <li>📌 Submit to CMC & Coingecko</li>
-    <li>🚀 Community growth</li>
-  </ul>
-</div>
+    <div class="card">
+      <h2>Tokenomics</h2>
+      <p>This token is designed for testing price fetching and auto-import functionality. It represents a supply of 25 million units, deployed on-chain for experimentation and learning purposes.</p>
+    </div>
 
-<div class="card">
-  <h2>Resources</h2>
-  <a href="#" class="button">Whitepaper (Coming Soon)</a>
-  <p><strong>Explorer:</strong> <a href="https://bscscan.com/token/0x91f5a9e80F645277F3AF233eacf5F27f53be3EB3" target="_blank">View on BscScan</a></p>
-</div>
+    <div class="card">
+      <h2>Roadmap</h2>
+      <ul>
+        <li>✅ Token launch</li>
+        <li>🔄 Liquidity added</li>
+        <li>📌 Submit to CMC & Coingecko</li>
+        <li>🚀 Community growth</li>
+      </ul>
+    </div>
 
-  </section>  <footer>
+    <div class="card">
+      <h2>Resources</h2>
+      <div class="center">
+        <a href="https://github.com/harinath1788/usdt-token-site/raw/5195534e8e87195f84635a83fc15fcc0e7877538/USDT_Whitepaper.pdf" 
+           target="_blank" class="button">📄 Whitepaper</a>
+      </div>
+      <p><strong>Explorer:</strong> 
+        <a href="https://bscscan.com/token/0x91f5a9e80F645277F3AF233eacf5F27f53be3EB3" target="_blank">
+          View on BscScan
+        </a>
+      </p>
+    </div>
+  </section>  
+
+  <footer>
     <p>&copy; 2025 Tether USD (USDT). All Rights Reserved.</p>
   </footer>
 </body>
